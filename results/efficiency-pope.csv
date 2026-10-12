@@ -1,0 +1,5 @@
+Method,Avg. visual tokens,Mean latency (s),P95 latency (s),Speedup,Peak memory (GiB),Accuracy (%),F1 (%)
+LLaVA-NeXT-7B,2280,0.33,0.40,1.00x,15.03,86.80,86.40
+Q-RADA,320,0.21,0.23,1.57x,14.65,88.24,87.02
+Q-RADA,175,0.17,0.18,1.87x,14.09,87.50,86.90
+Q-RADA,80,0.15,0.17,2.20x,13.89,86.93,86.31

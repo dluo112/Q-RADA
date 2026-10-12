@@ -1,0 +1,107 @@
+{
+  "manuscript_source": "zdy.tex",
+  "source_sha256": "0cb270cca68d3469dbdb0daefabc236a331be7d2d53fe3c1c1d181d553f8d5d6",
+  "figures": [
+    {
+      "png": "assets/figures/overview.png",
+      "pdf": "assets/pdf/overview.pdf",
+      "source": "Figure/overview.pdf",
+      "source_sha256": "4efa90b4d50d39948a4979ff9511178a9444486d7d9129f9e952119f3cdc37fe",
+      "rendering": "pdftoppm, PNG, longest dimension 2400 pixels"
+    },
+    {
+      "png": "assets/figures/motivation.png",
+      "pdf": "assets/pdf/motivation.pdf",
+      "source": "Figure/introduction1.pdf",
+      "source_sha256": "e0b2cfb7fb5a25cfea43f06c5aaac5c468045d5ff76f82ecc7229e63cebbfea7",
+      "rendering": "pdftoppm, PNG, longest dimension 2400 pixels"
+    },
+    {
+      "png": "assets/figures/regional-curves.png",
+      "pdf": "assets/pdf/regional-curves.pdf",
+      "source": "Figure/regional_curves.pdf",
+      "source_sha256": "1de07a3b750851cf90ca41cf39741f41fd0aa36ab8ad4fe0e5c434c4c27577cc",
+      "rendering": "pdftoppm, PNG, longest dimension 2400 pixels"
+    },
+    {
+      "png": "assets/figures/parameter-sensitivity.png",
+      "pdf": "assets/pdf/parameter-sensitivity.pdf",
+      "source": "Figure/h_k_surface_corrected_cropped.pdf",
+      "source_sha256": "0f6a002a6ecee89112fb4b44ef8a75935760fff8e3cf3e9890b02b01e4b7b2a8",
+      "rendering": "pdftoppm, PNG, longest dimension 2400 pixels"
+    },
+    {
+      "png": "assets/figures/token-visualization.png",
+      "pdf": "assets/pdf/token-visualization.pdf",
+      "source": "Figure/CDPruner_all_cases_single_slide_cropped.pdf",
+      "source_sha256": "b37a572a302f598849dd9ee7a43c3c6b40d59e775a8ee278714252bf659aa70f",
+      "rendering": "pdftoppm, PNG, longest dimension 2400 pixels"
+    }
+  ],
+  "tables": [
+    {
+      "file": "results/llava-1.5-7b.csv",
+      "latex_excerpt": "results/latex/llava-1.5-7b.tex",
+      "source": "zdy.tex",
+      "label": "tab:results-7b",
+      "source_line": 305,
+      "data_rows": 25
+    },
+    {
+      "file": "results/llava-next-7b.csv",
+      "latex_excerpt": "results/latex/llava-next-7b.tex",
+      "source": "zdy.tex",
+      "label": "tab:results-next-7b",
+      "source_line": 417,
+      "data_rows": 17
+    },
+    {
+      "file": "results/qwen2.5-vl-7b.csv",
+      "latex_excerpt": "results/latex/qwen2.5-vl-7b.tex",
+      "source": "zdy.tex",
+      "label": "tab:token_budget_comparison",
+      "source_line": 526,
+      "data_rows": 16
+    },
+    {
+      "file": "results/llava-video-7b.csv",
+      "latex_excerpt": "results/latex/llava-video-7b.tex",
+      "source": "zdy.tex",
+      "label": "tab:experiment",
+      "source_line": 632,
+      "data_rows": 15
+    },
+    {
+      "file": "results/ablation.csv",
+      "latex_excerpt": "results/latex/ablation.tex",
+      "source": "zdy.tex",
+      "label": "tab:ablation",
+      "source_line": 755,
+      "data_rows": 4
+    },
+    {
+      "file": "results/efficiency-pope.csv",
+      "latex_excerpt": "results/latex/efficiency-pope.tex",
+      "source": "zdy.tex",
+      "label": "tab:budget-efficiency",
+      "source_line": 918,
+      "data_rows": 4
+    },
+    {
+      "file": "results/extreme-compression.csv",
+      "latex_excerpt": "results/latex/extreme-compression.tex",
+      "source": "zdy.tex",
+      "label": "tab:extreme-compression",
+      "source_line": 952,
+      "data_rows": 7
+    },
+    {
+      "file": "results/llava-1.5-13b.csv",
+      "latex_excerpt": "results/latex/llava-1.5-13b.tex",
+      "source": "zdy.tex",
+      "label": "tab:larger-model",
+      "source_line": 977,
+      "data_rows": 5
+    }
+  ]
+}

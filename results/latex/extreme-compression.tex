@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4.8pt}
+\caption{Extreme-compression evaluation on LLaVA-1.5-7B.}
+\label{tab:extreme-compression}
+\begin{tabular}{l|cccccc}
+\toprule
+Method & Tokens & GQA & MMB & MME & POPE & VizWiz \\
+\midrule
+LLaVA-1.5-7B & 576 & 61.9 & 64.7 & 1862 & 85.9 & 50.1  \\
+\midrule
+VisionZip & 32 & 51.8 & 55.6 & 1545 & 69.8 & 50.5 \\
+SCOPE & 32 & 55.7 & 59.4 & 1628 & 80.1 & 52.7 \\
+\rowcolor{gray!20} Q-RADA & 32 & 57.9 & 60.8 & 1664 & 84.2 & 53.8  \\
+\midrule
+VisionZip & 16 & 43.2 & 45.8 & 1210 & 52.1 & 46.0  \\
+SCOPE & 16 & 48.9 & 52.1 & 1398 & 70.4 & 48.1  \\
+\rowcolor{gray!20} Q-RADA & 16 & 52.7 & 55.8 & 1492 & 78.6 & 50.9 \\
+\bottomrule
+\end{tabular}
+\end{table}

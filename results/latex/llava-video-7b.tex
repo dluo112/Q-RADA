@@ -1,0 +1,60 @@
+\begin{table}
+\centering
+\small
+\caption{Comparison of experimental results on Video-MME and MVBench.}
+\label{tab:experiment}
+
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}l|ccc|c@{}}
+\toprule
+
+& \multicolumn{3}{c}{\textbf{Video-MME}} & \\
+\cmidrule(lr){2-4}
+\multicolumn{1}{c}{\textbf{Method}}
+& \textbf{Short}
+& \textbf{Medium}
+& \textbf{Long}
+& \textbf{MVBench} \\
+
+\midrule
+\multicolumn{5}{c}{
+  \textbf{Full-token baseline, All $64 \times 169$ Tokens (100\%)}
+} \\
+\midrule
+
+LLaVA-Video-7B
+& 76.6 & 61.2 & 53.1 & 58.2 \\
+
+\midrule
+\multicolumn{5}{c}{
+  \textbf{Retain $64 \times 32$ Tokens ($\downarrow$ 81.1\%)}
+} \\
+\midrule
+
+FastV (ECCV'24)     & 63.8 & 55.9 & 48.4 & 52.7 \\
+PDrop (CVPR'25)     & 67.0 & 57.7 & 50.0 & 53.1 \\
+SparseVLM (ICML'25)  & 69.8 & 56.9 & 50.3 & 54.1 \\
+DART (EMNLP'25)      & 67.3 & 57.1 & 50.0 & 52.7 \\
+DivPrune (CVPR'25)  & 69.9 & 57.9 & 50.2 & 53.7 \\
+CDPruner (NeurIPS'25)  & 71.9 & 58.6 & 51.0 & 55.7 \\
+% {V$^2$Drop} (CVPR'26)
+\rowcolor{gray!20}\texttt{Q-RADA (ours)}  & 71.9 & 58.9 & 51.1 & 60.3 \\
+
+\midrule
+\multicolumn{5}{c}{
+  \textbf{Retain $64 \times 16$ Tokens ($\downarrow$ 90.5\%)}
+} \\
+\midrule
+
+FastV (ECCV'24)     & 55.0 & 50.0 & 45.0 & 46.8 \\
+PDrop (CVPR'25)     & 52.9 & 50.0 & 43.8 & 44.3 \\
+SparseVLM (ICML'25)  & 53.8 & 49.3 & 46.3 & 48.7 \\
+DART (EMNLP'25)      & 64.8 & 52.9 & 48.1 & 50.4 \\
+DivPrune (CVPR'25)  & 67.7 & 54.2 & 48.2 & 52.0 \\
+CDPruner (NeurIPS'25)  & 66.2 & 56.0 & 49.6 & 53.8 \\
+\rowcolor{gray!20}\texttt{Q-RADA (ours)}   & 68.8 & 56.6 & 49.7 & 58.4 \\
+
+\bottomrule
+\end{tabular}
+\vspace{-2em}
+\end{table}

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4.1pt}
+\caption{Transfer to LLaVA-1.5-13B. Avg.\% is the aggregate accuracy relative
+to the full-token 13B model.}
+\label{tab:larger-model}
+\begin{tabular}{lccccccc}
+\toprule
+Method & Tokens & GQA & MMB & MME & POPE & VizWiz & Avg.\% \\
+\midrule
+LLaVA-1.5-13B & 576 & 63.2 & 67.7 & 1818 & 85.9 & 53.6 & 100.0 \\
+\midrule
+SCOPE & 128 & 59.3 & 67.2 & 1735 & 85.9 & 52.2 & 97.3 \\
+\rowcolor{gray!20} Q-RADA & 128 & 60.4 & 66.3 & 1752 & 87.5 & 53.6 & \textbf{98.4} \\
+\midrule
+SCOPE & 64 & 58.7 & 65.5 & 1762 & 83.0 & 51.5 & 96.0 \\
+\rowcolor{gray!20} Q-RADA & 64 & 60.1 & 64.6 & 1715 & 87.1 & 53.8 & \textbf{97.2} \\
+\bottomrule
+\end{tabular}
+\end{table}

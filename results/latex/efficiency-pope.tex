@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4.5pt}
+\caption{Efficiency comparison on the full POPE benchmark with LLaVA-NeXT-7B
+across token budgets.}
+\label{tab:budget-efficiency}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Method
+& Avg. visual tokens
+& Mean latency (s) $\downarrow$
+& P95 latency (s) $\downarrow$
+& Speedup $\uparrow$
+& Peak memory (GiB) $\downarrow$
+& Accuracy (\%) $\uparrow$
+& F1 (\%) $\uparrow$ \\
+\midrule
+LLaVA-NeXT-7B
+& 2280 & 0.33 & 0.40 & 1.00$\times$ & 15.03 & 86.80 & 86.40 \\
+Q-RADA
+& 320 & 0.21 & 0.23 & 1.57$\times$ & 14.65 & 88.24 & 87.02 \\
+Q-RADA
+& 175 & 0.17 & 0.18 & 1.87$\times$ & 14.09 & 87.50 & 86.90 \\
+Q-RADA
+& 80 & 0.15 & 0.17 & 2.20$\times$ & 13.89 & 86.93 & 86.31 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
