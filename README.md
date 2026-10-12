@@ -4,11 +4,9 @@
 
 ### Which Region Gets the Next Token?<br>Query-Conditioned Visual Token Pruning via Marginal Gains
 
-**Deng Luo · Dongyang Zhang · Shuang Liang · Man-Fai Leung · Ke Qin**
-
 Training-free visual token pruning with a strict global budget.
 
-[Method](#method) · [Results](#results) · [Visualizations](#visualizations) · [Release status](#release-status) · [Citation](#citation) · [中文](README.zh-CN.md)
+[Method](#method) · [Results](#results) · [Visualizations](#visualizations) · [中文](README.zh-CN.md)
 
 </div>
 
