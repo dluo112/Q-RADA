@@ -12,8 +12,6 @@ Training-free visual token pruning with a strict global budget.
 
 </div>
 
-> **Code release pending.** This repository currently provides the method overview, manuscript figures, and reported experimental results. Implementation and evaluation code will be added in a future release.
-
 ![Q-RADA method overview](assets/figures/overview.png)
 
 ## Highlights
@@ -116,32 +114,3 @@ Measured distortion, induced surrogate distortion, clipped raw reductions, and n
 Sensitivity to region size `h` and eligible-region count `K` under a 64-token budget. The peak of 98.1% corresponds to the five-benchmark analysis setting; the main eight-benchmark result is 97.1%.
 
 </details>
-
-[Original vector PDFs and figure provenance](docs/ASSETS.md) are included.
-
-## Release status
-
-- [x] Method overview and manuscript figures
-- [x] Reported experimental tables in Markdown, CSV, and LaTeX
-- [ ] Q-RADA implementation
-- [ ] Model integration and inference examples
-- [ ] Evaluation scripts and reproduction instructions
-- [ ] Installation requirements and code license
-
-## Citation
-
-The citation below identifies the manuscript. Publication details and a public paper link will be added when available.
-
-```bibtex
-@misc{luo_qrada,
-  title  = {Which Region Gets the Next Token? Query-Conditioned Visual Token Pruning via Marginal Gains},
-  author = {Luo, Deng and Zhang, Dongyang and Liang, Shuang and Leung, Man-Fai and Qin, Ke},
-  note   = {Manuscript}
-}
-```
-
-[BibTeX file](citation.bib)
-
-## Contact
-
-For questions about the method, contact [Deng Luo](mailto:dluo@std.uestc.edu.cn) or [Dongyang Zhang](mailto:dyzhang@uestc.edu.cn), the corresponding author.
